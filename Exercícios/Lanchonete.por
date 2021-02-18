@@ -4,7 +4,7 @@ programa
 	
 	inteiro quantidade = 0
 	real valor = 0.0, dinheiro = 0.0
-	cadeia escolhe
+	caracter escolhe
 		
 	funcao inicio()
 	{
@@ -77,7 +77,7 @@ programa
 		valor = valor + dinheiro * quantidade
 		escreva("Deseja mais algo? S/N ")
 		leia(escolhe)
-		se(escolhe == "s"){
+		se(escolhe == 's'){
 			limpa()
 			menu(opcao)
 		}
@@ -92,7 +92,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1758; 
+ * @POSICAO-CURSOR = 1717; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
